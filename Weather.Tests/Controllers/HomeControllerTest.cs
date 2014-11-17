@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Weather;
 using Weather.Controllers;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Weather.Tests.Controllers
 {
@@ -9,6 +10,7 @@ namespace Weather.Tests.Controllers
   public class HomeControllerTest
   {
     [TestMethod]
+    [ExcludeFromCodeCoverage]
     public void Index()
     {
       // Arrange

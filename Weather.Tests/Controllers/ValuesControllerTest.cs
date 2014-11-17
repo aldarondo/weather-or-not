@@ -7,10 +7,12 @@ using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Weather;
 using Weather.Controllers;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Weather.Tests.Controllers
 {
   [TestClass]
+  [ExcludeFromCodeCoverage]
   public class ValuesControllerTest
   {
     [TestMethod]
